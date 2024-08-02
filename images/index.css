@@ -45,3 +45,15 @@ left: 75px;bottom: 75px; border-radius: 8px;padding: 15px 0px;}
 
     .span-ball{font-size: 13px;}
     .icon-1{display: none;}
+
+    /* $$    main sections - style.    */
+
+          /* habit-section- style */
+
+.habit-section{margin: 5rem 10rem;}
+.habit-image{ display: flex;justify-content: center;gap: 30px;}
+.text-center{text-align: center;font-size: 12px;margin-bottom: 10px;}
+.margin-bottom{margin-bottom: 10px;}
+.habit-h3{ text-align: center; font-size: 40px;margin-bottom: 10px;}
+.border-radius{ border-radius: 100%;}
+.pk{ color: rgb(255,255,255,0.5);font-size: 10px;}
