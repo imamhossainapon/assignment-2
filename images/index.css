@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 @import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Kalnia+Glaze:wght@100..700&family=Style+Script&display=swap');
 body{font-family: "Inter", sans-serif; background-color: black;color: white;margin: 0;padding: 0;}
 *{margin: 0;padding: 0;}
       
@@ -89,7 +90,7 @@ td{color: rgba(255,255,255,0.6);width: 110px;font-size: 12px;height:20px;padding
 .margin-1-h3{ margin-bottom: 20px; font-size: 23px; text-align: center;}
  
 /* input-style */
-.select-1{ width: calc(50% - 27px); height: 30px;border-radius: 5px;background-color:rgba(255,255,255,0.1) ;margin-bottom: 10px;color:rgba(255,255,255,0.6)  ; border-right: 6px solid transparent;border-left: 6px solid transparent;}
+.select-1{ width: calc(50% - 27px); height: 30px;border-radius: 5px;background-color:#ffffffa4 ;margin-bottom: 10px;color:rgba(255,255,255,0.6)  ; border-right: 6px solid transparent;border-left: 6px solid transparent;}
 input{width: calc(50% - 33px);margin-top: 5px;border-radius: 5px;background-color:rgba(255,255,255,0.1) ; margin-bottom: 20px;color:rgba(255,255,255,0.6);height: 26px; border-left: 6px solid transparent;}
 
 .select-2{width:calc(100% - 51px); height: 30px; border-radius: 5px;background-color:rgba(255,255,255,0.1) ; color:rgba(255,255,255,0.6); margin-bottom: 10px; border-right: 6px solid transparent;border-left: 6px solid transparent;} 
@@ -98,6 +99,15 @@ input{width: calc(50% - 33px);margin-top: 5px;border-radius: 5px;background-colo
 .p-p{font-size: 10px;color:rgba(255,255,255,0.6) ;}
 .margin-1{ margin-bottom: 20px;}
 
+ /* my main div */
+.my-section{ margin: 3rem 10rem;}
+.my-img-div{ display: grid; grid-template-columns:repeat(3,1fr);gap: 10px; }
+.my-video{ display: grid;grid-template-columns: 1.25fr .5fr 1.25fr;gap: 10px;}
+.my-1{ height: 300px;width:100% ; border-radius: 20px; }
+.my-2{width: 100%; height:300px ;  border-radius: 20px;}
+.video-text p{ color: rgb(42, 52, 165);font-family: "Kalnia Glaze", serif;font-size: 15px;font-weight: 900; }
+.video-text h2{ font-family: 'Miama', sans-serif;color: aqua; font-size: 30px;margin: 40px 0px;}
+.video-text{ background-image: url(../photo-1722453614851-56ce00d84aa0.avif); background-size:cover;}
 /* trainer- section 4-   style */
 
 .main-section-4{margin: 5rem 10rem;}
@@ -121,4 +131,36 @@ input{width: calc(50% - 33px);margin-top: 5px;border-radius: 5px;background-colo
 .high-footer{ margin: 3rem 11rem 0rem 11rem;padding-bottom: 2rem;border-top: 2px solid rgba(255, 255, 255,0.5);}
 h2{color: rgba(255, 255, 255,0.5)  ;text-align: center;}
 .footer-div1 p{font-size: 10px;line-height: 20px;}.footer-div1{padding-left: 20px;}
+
+
+/* responsive style */
+ 
+/* @media screen and (max-width:576px){
+    .nav-bar,.nav-ul li ,.button-1,.button-2,.header-img-div,.ball,.no-ball,.habit-section,.extra-image,.section-table-type,.div-type,.table-type-div,.section-text,.main-section-4,.section-footer,.footer-div,.high-footer,.header-section{margin: 0px;padding: 0px;}
+    
+    .nav-li{ display: none;}
+    .header-secton{margin: 0px;padding: 0px;display: flex;flex-direction: column;}
+    .no-ball{padding: 0px 20px;position: absolute;top: 38px;}
+    .header-image-div{margin-top:3rem;}
+    .ball{margin-right: 10px;}
+    .ball-div{position: absolute;left: 10px;bottom: 250px;}
+    .habit-image{display: grid;grid-template-columns: 1fr;position: relative;}
+    .reponsive-img{margin: 0px 25%;}
+    .extra-div{display: flex;flex-direction: column;justify-content: center;align-items: center; margin: 0%;padding: 0%;}
+    .nai,.extra-text{width: calc(100% - 80px);padding: 40px;border-radius: 60px;display: block;}
+    .img-run{display: none;}
+    .extra-div{margin: 5% 20px;}
+    .button-extra{width: 100%;margin-top: 10px;}
+    .table-type-div{display: flex;flex-direction: column;margin: 0px;padding: 0px;}
+    .table-div ,.div-type{margin-left: 20px;}
+    .img1{display: none;}
+    .section4-div{display: flex;flex-direction: column;}
+    .high-footer{padding-bottom:1rem ;}
+    .footer-div1{margin-left: 2rem;}
+    .header-h3{font-size: 3rem;}
+    .nav-bar{margin: 0px 1rem;}
+    .bar{display: block;}
+    .icon-1{position: absolute;left: 15px;display: block;}
+    .nav-ul{display: none;} 
+}*/
 
